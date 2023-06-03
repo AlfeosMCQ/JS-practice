@@ -231,7 +231,7 @@ body {
 /* HOME DESIGNS DECTION */
 .home_designs {
   min-height: 1012px;
-  background-image: url("../img/bg.svg");
+  background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -535,7 +535,7 @@ body {
 /* TABS */
 .tabs {
   min-height: 700px;
-  background-image: url("../img/bg_clients.svg");
+  background-image: url("../img/bg_clients.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
