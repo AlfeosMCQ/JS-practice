@@ -164,3 +164,16 @@ accordionBtn.addEventListener('click', function open() {
         accordionContent.classList.add('accordion-hidden');
     }
 });
+
+
+// БУРГЕР МЕНЮ
+
+const burgerBtn = document.querySelector('.burger__wrapper');
+const burgerContent = document.querySelector('.burger__list');
+
+
+function toggleMenu() {
+    burgerContent.classList.toggle('burger__list-active');
+}
+
+burgerBtn.addEventListener('click', toggleMenu)
